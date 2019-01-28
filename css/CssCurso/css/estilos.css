@@ -1,0 +1,70 @@
+/*Importar hojas de estilo en CSS
+@import url('normalize.css');
+
+
+nav{ 
+	height: 70px; altura
+	width: 100%; anchura
+	background-color: blue; color de fondo
+}
+Css funciona en cascada , el ultimo estilo que se le da es el que se aplica
+p{
+	color: red; Color de letra
+}
+
+
+Tambien puedes manejar etiquetas heredadas
+Si tienes una etiqueta dentro de otro , el estilo se
+aplica a la etiqueta dentro de la etiqueta que se le dio el 
+estilo
+*/
+
+/*
+Es recomendable usar class para usar estilos
+Los id son mas usados para JS
+pero en css se llama con un #(nombre del id)
+En class se le llama con un punto (.) y el nombre de la clase
+Las clases son para varios elementos en cambio el id es para uno solo 
+*/
+
+/*cuando pones una etiqueta adelante de la clase ,
+le dices a CSS que solo aplique los estilos a la clase de esa etiqueta*/
+
+
+.parrafo2{
+	background-color: red;
+}
+
+/*Puedes poner mas de un nombre por clasee creada por etiqueta
+Ejemplo*/
+.div.parrafo1{
+	color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

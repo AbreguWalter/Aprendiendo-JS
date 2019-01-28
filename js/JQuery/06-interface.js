@@ -24,6 +24,37 @@ $(document).ready(function(){
 		}
 	});
 
+	//Efectos
+	$('#mostrar').click(function(){
+		$('.caja-efectos').toggle("fade");// tambien se puede usar como faceToggle()
+		// tambien tienes :
+		/*
+							.effect("explode");
+							.effect("blind");
+							.effect("slide");
+							.effect("drop");
+							.effect("fold");
+							.effect("puff");
+							.effect("scale");
+							.effect("shake");
+							.effect("propiedad",(tiempo));
+							En la documentacion tenemos mas
 
+		*/
+	});
+
+	$(document).tooltip();
+
+	//Dialog
+	$('#popup').dialog(); //No logro salir
+
+
+	//Datapicker
+
+	$(".calendario").datepicker(); // no me funco con id sino con class
+
+	//Tabs
+	$('#pestanas').tabs(); //tabs funciona mejor con id
 
 });
+

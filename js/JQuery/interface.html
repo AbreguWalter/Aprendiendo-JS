@@ -47,6 +47,12 @@
 		  	border:4px solid green;
 		  }
 
+		  .elemento{
+		  	background: lightblue;
+		  	float: none;
+		  	display: none;
+		  }
+
 
 		  </style>
 
@@ -54,6 +60,51 @@
 	<body>
 
 		<h1>Aprendindo JQuery - JQuery UI</h1>
+		<hr>
+
+		<h3>Tooltip</h3>
+
+		<a href="#" title="acceder a la seccion de mis datos de esta web" >Mis datos</a>
+		<a href="#" title="Logueate en la web">Identificarce</a>
+
+		<hr>
+			<h5>Calendario</h5>
+			<input type="text" name="calendario" class="calendario">
+		<hr>
+
+
+		<hr>
+			<h5>Pestañas</h5>
+			<div id="pestanas">
+				<ul>
+					<li><a href="#tabs-1">Pestaña1</a></li>
+					<li><a href="#tabs-2">Pestaña2</a></li>
+					<li><a href="#tabs-3">Pestaña3</a></li>
+				</ul>
+				<div id="tabs-1">
+					Hola soy un tab1
+				</div>
+				<div id="tabs-2">
+					Hola soy un tab2
+				</div>
+				<div id="tabs-3">
+					Hola soy un tab3
+				</div>
+			</div>
+		<hr>
+
+		<h4>Cuadros de dialogo</h4>
+		
+		<div id="popup" title="estas seguro">
+			<p>
+				si continuas con el curso aprenderas
+			</p>
+		</div>
+		<hr>
+		<!--Efectos JQuery UI-->
+		<button id="mostrar">Mostrar</button>
+		<div class="caja-efectos elemento"></div>
+
 
 			<div id="lista-movido"></div>
 			<br>	
